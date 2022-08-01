@@ -1,8 +1,8 @@
 @import url(../style.css);
 
-#main { background-color: var(--black-transparent); }
+main#main { background-color: var(--black-transparent); padding: 0px 1%; }
 
-#main .title__section { width: 100%;}
+main#main .title__section { width: 100%;}
     #main .title__section h2
     {
         text-align: center;
