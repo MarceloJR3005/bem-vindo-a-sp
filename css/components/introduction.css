@@ -7,7 +7,7 @@ section#introduction
     height: 80vh;
 }
 
-    section#introduction picture img
+    section#introduction img
     {
         position: absolute;
         z-index: 0;
@@ -46,14 +46,17 @@ section#introduction
 
     #arrowdown
     {
+        display: block;
         position: absolute;
         top: 85%;
         left: 50%;
         transform: translateX(-50%);
     }
 
-        #arrowdown img
+        div#arrowdown img
         {
+            width: 50px;
+            height: 50px;
             max-width: 50px;
             filter: invert();
             animation: arrows 1s infinite ease-in-out alternate;

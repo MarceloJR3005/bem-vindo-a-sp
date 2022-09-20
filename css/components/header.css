@@ -2,12 +2,16 @@
 
 header
 {
+    z-index: 999;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    background-color: var(--black-transparent);
+    width: 100vw;
+    background-color:black;
     padding: 0px 3vw;
+    position: sticky;
+    top: -1px;
+    transform: translateX(-1.5px);
 }
 
     #logo__header

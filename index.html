@@ -15,12 +15,12 @@
         </div>
 
         <div id="links-nav__header">
-            <a href="#">INÍCIO</a>
-            <a href="#">INFORMATIVO</a>
-            <a href="#">CURSOS</a>
+            <a href="#introduction">INÍCIO</a>
+            <a href="#historia-cem">INFORMATIVO</a>
+            <a href="#main">CURSOS</a>
             <a href="#">FOTOS</a>
-            <a href="#">FORMULÁRIO</a>
-            <a href="#">CONTATOS</a>
+            <a href="#form">FORMULÁRIO</a>
+            <a href="#redes-sociais">CONTATOS</a>
         </div>
 
         <div id="mobile-menu__header">
@@ -31,12 +31,12 @@
                 <span class="line line3"></span>
             </div>
             <div id="links-nav-mobile__header">
-                <li><a href="#">INÍCIO</a></li>
-                <li><a href="#">INFORMATIVO</a></li>
-                <li><a href="#">CURSOS</a></li>
+                <li><a href="#introduction">INÍCIO</a></li>
+                <li><a href="#historia-cem">INFORMATIVO</a></li>
+                <li><a href="#main">CURSOS</a></li>
                 <li><a href="#">FOTOS</a></li>
-                <li><a href="#">FORMULÁRIO</a></li>
-                <li><a href="#">CONTATOS</a></li>
+                <li><a href="#form">FORMULÁRIO</a></li>
+                <li><a href="#redes-sociais">CONTATOS</a></li>
             </div>
         </div>
 
@@ -46,14 +46,10 @@
 
     <section id="introduction">
 
-        <picture>
-            <source srcset="./source/images/introducion-images/sp-top-vision-light-p.jpg" media="(max-width: 800px)">
-            <source srcset="./source/images/introducion-images/sp-top-vision-light-g.jpg" media="(max-width: 2000px)">
-            <img src="./source/images/introducion-images/sp-top-vision-light-gg.jpg" alt="">
-        </picture>
+        <img src="./source/images/introduction-images/manhuacu-top-view.jpg" alt="">
         <h1>Conheça o melhor <br> Centro Educacional <br> de Manhuaçu</h1>
         <div id="arrowdown">
-            <img src="./source/images/introducion-images/arrow-down-icon-8.jpg" alt="arrow-down">
+            <a href="#main"><img src="./source/images/introduction-images/arrow-down-icon-8.jpg" alt="arrow-down"></a>
         </div>
 
     </section> <!-- introduction -->
@@ -71,13 +67,13 @@
             <div class="two-images__section flex-row">
 
                 <div class="img__section">
-                    <img src="./source/images/main-images/deck-de-vidro-em-sp.webp" alt="deck-de-vidro-em-sp">
-                    <h4>Escola</h4>
+                    <img src="./source/images/main-images/ensino-fundamental.jpeg" alt="ensino-fundamental">
+                    <h4>Maternal - Fundamental</h4>
                 </div>
 
                 <div class="img__section">
-                    <img src="./source/images/main-images/skyline-sp.jpg" alt="skyline-sp">
-                    <h4>Trilhas do Futuro
+                    <img src="./source/images/main-images/ensino-medio.jpeg" alt="ensino-medio">
+                    <h4>Ensino Médio</h4>
                 </div>
 
             </div> <!-- two-images__section -->
@@ -85,18 +81,18 @@
             <div class="three-images__section flex-row">
 
                 <div class="img__section">
-                    <img src="./source/images/main-images/teatro-municipal.jpg" alt="teatro-municipal">
+                    <img src="./source/images/main-images/trilhas-do-futuro.jpeg" alt="trilhas-do-futuro">
+                    <h4>Trilhas do Futuro</h4>
+                </div>
+
+                <div class="img__section">
+                    <img src="./source/images/main-images/instituto-mix.jfif" alt="instituto-mix">
                     <h4>Instituto Mix</h4>
                 </div>
 
                 <div class="img__section">
-                    <img src="./source/images/main-images/museu-de-arte-de-sp.webp" alt="museu-de-arte-de-sp">
-                    <h4>UNOPAR<wbr></h4>
-                </div>
-
-                <div class="img__section">
-                    <img src="./source/images/main-images/monumento-as-bandeiras.jpg" alt="monumento-as-bandeiras">
-                    <h4>Monumento das Bandeiras</h4>
+                    <img src="./source/images/main-images/unopar.jpeg" alt="unopar-foto">
+                    <h4>UNOPAR</h4>
                 </div>
 
             </div> <!-- three-images__section -->
@@ -107,51 +103,96 @@
 
     <div class="hr-line"></div>
 
-    <section class="flex-row flex-50-50" id="tur-points">
+    <section id="historia-cem" class="flex-row flex-50-50">
+        <div class="img-50">
+            <img src="source/images/logo-cem.png" alt="img">
+        </div>
 
-        <div class="flex-row flex-50-50" id="zoo-sp">
-            <div class="img-50">
-                <img src="source/images/tur-points/01-zoo-sp.jpg" alt="zoológico de são paulo">
-            </div>
-            <div class="text-50">
-                <h3 class="title__section">zoológico de são paulo</h3>
-                <p>
-                    Eleito o segundo melhor zoológico do Brasil e o quinto melhor da América Latina pelo site especializado em turismo TripAdvisor.
-                </p>
-            </div>
-        </div> <!-- #zoo-sp -->
+        <div class="text-50">
+            <h2 class="title__section">Sobre:</h2>
+            <p>
+                o CEM constitui-se em um referencial de ensino privado de Manhuaçu e região, contando com cerca de 4 mil alunos  atendendo Educação infantil, Ensino Fundamental, Ensino Médio, Cursos Técnicos, Graduação, Pós-graduação. <br/>Agregações:  INSTITUTO MIX, UNOPAR e TRILHAS DO FUTURO
+            </p>
+        </div>
+
+    </section> <!-- #historia-cem -->
+
+    <div class="hr-line"></div>
+    
+    <section class="form" id="form">
+        <div class="img-50">
+            <img src="source/images/form-icon.png" alt="img">
+        </div>
+        <form action="" autocomplete="off" autocapitalize="on">
+            <label for="name">Nome</label>
+            <input type="text" name="name" id="name">
+
+            <label for="e-mail">E-mail:</label>
+            <input type="email" name="e-mail" id="e-mail">
+
+            <label for="telefone">Telefone para contato:</label>
+            <input type="tel" name="telefone" id="telefone">
+
+            <label for="assunto">Instituição:</label>
+            <select name="instituicao" id="instituicao">
+                <option value="cem">CEM</option>
+                <option value="unopar">Unopar</option>
+                <option value="institutomix">Instituto Mix</option>
+                <option value="trilhasdofuturo">Trilhas do Futuro</option>
+            </select>
+            
+            <label for="assunto">Quero saber sobre:</label>
+            <select name="assunto" id="assunto">
+                <option value="maternal">Maternal</option>
+                <option value="ensinofundamental">Ensino Fundamental</option>
+                <option value="ensinomedio">Ensino Médio</option>
+                <option value="ensinotecnico">Ensino Técnico</option>
+                <option value="outro">Entrar em contato para tirar dúvida</option>
+                <option value="outro">Outro assunto</option>
+            </select>
+
+            <label for="text">Perqunta:</label>
+            <textarea name="text" id="text" cols="30" rows="5"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+    </section> <!-- #form -->
+
+    <div class="hr-line"></div>
+    
+    <section id="redes-sociais" class="flex-row ">
+
+        <div class="flex-cl img-arred-small">
+            <a href="https://instagram.com/cem.manhuacu?igshid=YmMyMTA2M2Y=" target="_blank">
+                <img src="source/images/redes-sociais/instagram.png" alt="instagram">
+                <p>Instagram</p>
+            </a>
+        </div>
 
         <div class="hr-line-90"></div>
 
-        <div class="flex-row flex-50-50" id="zoo-sp">
-            <div class="img-50">
-                <img src="source/images/tur-points/01-zoo-sp.jpg" alt="zoológico de são paulo">
-            </div>
-            <div class="text-50">
-                <h3 class="title__section">zoológico de são paulo</h3>
-                <p>
-                    Eleito o segundo melhor zoológico do Brasil e o quinto melhor da América Latina pelo site especializado em turismo TripAdvisor.
-                </p>
-            </div>
-        </div> <!-- #zoo-sp -->
+        <div class="flex-cl img-arred-small">
+            <a href="https://m.facebook.com/CEManhuacu/" target="_blank">
+                <img src="source/images/redes-sociais/facebook.png" alt="facebook">
+                <p>Facebook</p>
+            </a>
+        </div>
 
-    </section> <!-- #tur-points -->
-    
-    <section class="form">
-        <form action="">
-            <label for="name do aluno ">Nome do Aluno:</label>
-            <input type="text" name="name do aluno " id="name">
-            <label for="e-mail">E-mail:</label>
-            <input type="text" name="e-mail" id="name">
-            <label for="nome responsavel">Nome Responsável:</label>
-            <input type="text" name="e-mail" id="nome responsavel">
-            <label for="telefone para contato">Telefone para contato:</label>
-            <input type="text" name="telefone para contato" id="telefone">
-            <label for="serie de interesse">Série de interesse:</label>
-            <input type="text" name="e-mail" id="serie de interesse">
+        <div class="hr-line-90"></div>
 
-        </form>
+        <div class="flex-cl img-arred-small">
+            <a href="https://maps.app.goo.gl/kKdEwEn6YJCxDFUQ7" target="_blank">
+                <img src="source/images/redes-sociais/localizacao.png" alt="localização">
+                <p>Localização</p>
+            </a>
+        </div>
 
-    </section>
+    </section> <!-- #redes-sociais -->
+
+    <footer class="flex-cl">
+        <p>Todos os Direitos Reservados &copy;</p>
+    </footer>
+
 </body>
 </html>
